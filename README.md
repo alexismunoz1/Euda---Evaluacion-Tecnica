@@ -1,8 +1,8 @@
 # Euda Evaluacion-Tecnica
 
-### 1.POO:
+## 1.POO:
 
-A- ¿Qué es la programación orientada a objetos?
+### A- ¿Qué es la programación orientada a objetos?
 
 #### Conceptos básicos
 
@@ -39,4 +39,19 @@ Algunas de esas clases pueden estar organizadas en `jerarquías de clase`.
 
 ![Captura desde 2022-06-24 16-26-27](https://user-images.githubusercontent.com/77214476/175654142-1aaab80f-0360-4713-86b9-d82ff97d35e7.png)
 
+- Las subclases pueden sobrescribir el comportamiento de los métodos que heredan de clases padre.
+- Una subclase puede sustituir completamente el comportamiento por defecto o limitarse a mejorarlo con material adicional.
 
+### B- ¿Qué es la herencia? ¿Y el polimorfismo? ¿Qué ventajas tiene utilizarlas?
+
+La programación orientada a objetos se basa en cuatro pilares, conceptos que la diferencian de otros paradigmas de programación.
+Abstracción, Polimorfismo, Encapsulación y Herencia
+
+herencia: 
+- La *herencia* es la capacidad de crear nuevas clases sobre otras ya existentes. La principal ventaja de la herencia es la reutilización de código.
+- Si quieres crear una clase ligeramente diferente a una ya existente, no hay necesidad de duplicar el código. En su lugar, extiendes la clase existente y colocas la funcionalidad adicional dentro de una subclase resultante que hereda los campos y métodos de la superclase.
+- La consecuencia del uso de la herencia es que las subclases tienen la misma interfaz que su clase padre. No puedes esconder un método en una subclase si se declaró en la superclase.
+
+polimorfismo: 
+- El *polimorfismo* es la capacidad que tiene un programa de detectar la verdadera clase de un objeto e invocar su implementación, incluso aunque su tipo real sea desconocido en el contexto actual.
+- También puedes pensar en el polimorfismo como la capacidad de un objeto para “fingir” ser otra cosa, normalmente una clase que extiende o una interfaz que implementa.
