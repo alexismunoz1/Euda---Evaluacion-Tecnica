@@ -55,3 +55,21 @@ herencia:
 polimorfismo: 
 - El *polimorfismo* es la capacidad que tiene un programa de detectar la verdadera clase de un objeto e invocar su implementación, incluso aunque su tipo real sea desconocido en el contexto actual.
 - También puedes pensar en el polimorfismo como la capacidad de un objeto para “fingir” ser otra cosa, normalmente una clase que extiende o una interfaz que implementa.
+
+En conclusión, las ventajas que se obtienen al utilizar estos conceptos es la modularidad y reutilización de código.
+
+### C- Se tienen solo lo siguiente: Circulo, Cuadrado, Rectángulo y Polígono. Realice un diagrama de clases que incluya a estos.
+
+## 2. ¿Qué es un patrón de diseño? ¿Cuáles son los principales objetivos?
+
+Los patrones de diseño son soluciones habituales a problemas que ocurren con frecuencia en el diseño de software. Son como planos prefabricados que se pueden personalizar para resolver un problema de diseño recurrente en tu código.
+- No se puede elegir un patrón y copiarlo en el programa como si se tratara de funciones o bibliotecas ya preparadas. El patrón no es una porción específica de código, sino un concepto general para resolver un problema particular. Puedes seguir los detalles del patrón e implementar una solución que encaje con las realidades de tu propio programa.
+- A menudo los patrones se confunden con algoritmos porque ambos conceptos describen soluciones típicas a problemas conocidos. Mientras que un algoritmo siempre define un grupo claro de acciones para lograr un objetivo, un patrón es una descripción de más alto nivel de una solución. El código del mismo patrón aplicado a dos programas distintos puede ser diferente.
+- Una analogía de un algoritmo sería una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta. Por su parte, un patrón es más similar a un plano, ya que puedes observar cómo son su resultado y sus funciones, pero el orden exacto de la implementación depende de ti.
+
+Sus principales objetivos son:
+- Explicar brevemente un problema y su posible solución.
+- Proporcionar catálogos de elementos reutilizables en el diseño de sistemas software.
+- Evitar la reiteración en la búsqueda de soluciones a problemas ya conocidos y solucionados anteriormente.
+- Formalizar un vocabulario común entre desarrolladores.
+- Estandarizar el modo en que se realiza el diseño.
