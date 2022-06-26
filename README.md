@@ -76,7 +76,7 @@ Sus principales objetivos son:
 
 ### 3. ALGORITMOS:  Escriba un algoritmo que dado un numero natural detecte si es primo o no.
 
-``` typescrip
+``` typescript
 const esPrimo = (num: number) => {
    if (!Number.isInteger(num)) throw TypeError("El argumento debe ser un número entero");
    if (num <= 1) throw Error("El argumento debe ser un número entero positivo y mayor que 1");
