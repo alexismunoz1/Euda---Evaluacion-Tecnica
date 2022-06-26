@@ -73,3 +73,21 @@ Sus principales objetivos son:
 - Evitar la reiteración en la búsqueda de soluciones a problemas ya conocidos y solucionados anteriormente.
 - Formalizar un vocabulario común entre desarrolladores.
 - Estandarizar el modo en que se realiza el diseño.
+
+### 3. ALGORITMOS:  Escriba un algoritmo que dado un numero natural detecte si es primo o no.
+
+``` typescrip
+const esPrimo = (num: number) => {
+   if (!Number.isInteger(num)) throw TypeError("El argumento debe ser un número entero");
+   if (num <= 1) throw Error("El argumento debe ser un número entero positivo y mayor que 1");
+
+   // Se calcula la raíz cuadrada del número ingresado
+   const raiz = Math.floor(Math.sqrt(num) + 1);
+
+   for (let i = 2; i < raiz; i++) {
+      if (num % i == 0) return false;
+   }
+
+   return true;
+};
+```
