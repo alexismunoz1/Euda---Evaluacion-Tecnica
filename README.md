@@ -58,8 +58,6 @@ polimorfismo:
 
 En conclusión, las ventajas que se obtienen al utilizar estos conceptos es la modularidad y reutilización de código.
 
-### C- Se tienen solo lo siguiente: Circulo, Cuadrado, Rectángulo y Polígono. Realice un diagrama de clases que incluya a estos.
-
 ## 2. ¿Qué es un patrón de diseño? ¿Cuáles son los principales objetivos?
 
 Los patrones de diseño son soluciones habituales a problemas que ocurren con frecuencia en el diseño de software. Son como planos prefabricados que se pueden personalizar para resolver un problema de diseño recurrente en tu código.
